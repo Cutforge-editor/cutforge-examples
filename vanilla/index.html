@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cutforge, no framework</title>
+    <style>
+      html, body { margin: 0; height: 100%; }
+      body { display: grid; grid-template-rows: auto 1fr; font: 14px system-ui; }
+      #status { margin: 0; padding: 8px; }
+      #editor { min-height: 0; }
+    </style>
+  </head>
+  <body>
+    <p id="status">Drop a video on the editor, then export.</p>
+    <div id="editor"></div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

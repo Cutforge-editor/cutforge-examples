@@ -1,0 +1,19 @@
+name: Feature request
+description: Something you need from the editor or the SDK.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The job your users or your product need done, rather than the solution.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would solve it for you?
+  - type: textarea
+    id: workaround
+    attributes:
+      label: How do you work around it today?

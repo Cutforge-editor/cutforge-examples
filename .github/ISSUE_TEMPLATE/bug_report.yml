@@ -1,0 +1,55 @@
+name: Bug report
+description: Something in @cutforge/editor does not work as documented.
+labels: [bug]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: "@cutforge/editor version"
+      placeholder: "1.2.0"
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser, version and OS
+      placeholder: "Chrome 141 on macOS 26"
+    validations:
+      required: true
+  - type: dropdown
+    id: backend
+    attributes:
+      label: Rendering backend
+      description: Shown in the corner of the editor's preview.
+      options: [webgpu, webgl2, canvas2d, "I don't know"]
+    validations:
+      required: true
+  - type: input
+    id: stack
+    attributes:
+      label: Framework and bundler
+      placeholder: "Next.js 16 App Router, or Vite + Vue"
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The smallest setup that shows the problem. A fork of one of the examples in this repository is ideal.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected, and what happened instead
+    validations:
+      required: true
+  - type: textarea
+    id: media
+    attributes:
+      label: Media details
+      description: Codec, resolution, frame rate and duration of the file involved. Please do not attach private footage; describe it or share a file you are free to publish.
+  - type: textarea
+    id: console
+    attributes:
+      label: Console output
+      description: Errors or warnings from the browser console.
+      render: text
