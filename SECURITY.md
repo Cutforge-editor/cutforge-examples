@@ -2,7 +2,7 @@
 
 ## Reporting a vulnerability
 
-Please do not open a public issue for a security problem. Email [maxence.leguery@gmail.com](mailto:maxence.leguery@gmail.com) with `SECURITY` in the subject, a description of the problem, and the steps or code to reproduce it. You will get a reply from the maintainer, and a fix is released on every maintained line it affects.
+Please do not open a public issue for a security problem. Email [cutforge@maxenceleguery.net](mailto:cutforge@maxenceleguery.net) with `SECURITY` in the subject, a description of the problem, and the steps or code to reproduce it. You will get a reply from the maintainer, and a fix is released on every maintained line it affects.
 
 ## Maintained versions
 

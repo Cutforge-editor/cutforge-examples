@@ -46,7 +46,7 @@ Nothing about your users or their media. The only network request the SDK makes 
 
 ## Issues and questions
 
-Found a bug or missing a feature? [Open an issue](../../issues/new/choose). For security problems, follow [SECURITY.md](SECURITY.md) instead of opening a public issue. For licensing and sales questions, email [maxence.leguery@gmail.com](mailto:maxence.leguery@gmail.com).
+Found a bug or missing a feature? [Open an issue](../../issues/new/choose). For security problems, follow [SECURITY.md](SECURITY.md) instead of opening a public issue. For licensing and sales questions, email [cutforge@maxenceleguery.net](mailto:cutforge@maxenceleguery.net).
 
 ## License
 
